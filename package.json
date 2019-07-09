@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "fuleinist"
+  },
+  "bugs": {
+    "url": "https://github.com/fuleinist/react-rx-hooks/issues"
+  },
+  "dependencies": {},
+  "description": "Collections of useful react hooks with rxjs",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rxjs": "^6.5.2"
+  },
+  "homepage": "https://github.com/fuleinist/react-rx-hooks#readme",
+  "keywords": [
+    "react",
+    "hooks",
+    "rxjs"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-rx-hooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuleinist/react-rx-hooks.git"
+  },
+  "scripts": {
+    "babel": "babel",
+    "build": "babel src -d lib",
+    "test": "test"
+  },
+  "version": "0.0.2"
+}
